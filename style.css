@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+  width: 100%;
+  height: 100%;
+}
+
+
+body{
+    background-image: url(45b3bf3ce7c276f48b29772f8bf8fab7.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.head h1{
+    font-size: 46px;
+    font-family: cursive;
+}
+
+.date h3{
+    font-size: 13px;
+    letter-spacing: 8px;
+}
+
+.venue{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: gilroy;
+}
+
+.venue h2{
+    font-size: 22px;
+}
+
+.venue h5{
+    letter-spacing: 5px;
+}
